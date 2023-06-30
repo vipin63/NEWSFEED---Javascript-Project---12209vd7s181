@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New News</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  
+</head>
+<body>
+  <div class="main-containernews">
+    <div class="containernews">
+      <div class="main_child1_news"><h3>MY NEWSFEED</h3></div>
+      <div class="main_child2_news"><h3>New NEWS</h3></div>
+    </div>
+    <div class="button-catogry">
+      <h3>SELECT CATEGORY</h3>
+    </div>
+    <div class="newspage_buttons">
+      <ul>
+        <button class="Button_class" onclick="applyFilter('business')">BUSINESS</button>
+        <button  class="Button_class" onclick="applyFilter('all')"> All</button>
+        <button  class="Button_class" onclick="applyFilter('sports')">SPORTS</button>
+        <button  class="Button_class" onclick="applyFilter('world')">WORLD</button>
+        <button  class="Button_class" onclick="applyFilter('politics')">POLITICS</button>
+        <button  class="Button_class" onclick="applyFilter('hatke')">HATK</button>
+        <button  class="Button_class" onclick="applyFilter('science')">SCIENCE</button>
+        <br/>
+        <button onclick="goHomePage()">Go Home Page</button>
+      </ul>
+    </div>
+  </div>
+  <div id="newNews"></div>
+  <script src="./script.js"></script>
+</body>
+</html>
