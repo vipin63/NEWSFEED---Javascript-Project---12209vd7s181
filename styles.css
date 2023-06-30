@@ -1,1 +1,145 @@
+/*index*/
+body{
+  background-color: lightblue;
+}
+.main-container{
+    background-color:black ;
+    height: 200px;
+    width: 1200px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 20px;
+    
+   
+}
+.div-container{
+     height:50px;
+     width: 300px;
+     margin: auto;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+     
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 40px;
+    width:800px ;
+    margin: 50px auto;
+}
+.button-container button{
+    width: 200px;
+    background-color:darkgoldenrod ;
+    border-radius: 8px;
+}
+.heading{
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 28px;
 
+}
+#transparent{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    
+} 
+/*saved and new */
+.main-containernews-1{
+
+  background-color: black;
+  height: 120px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+ .main-containernews{
+    background-color: black;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+ }
+
+ .containernews{
+    display: flex;
+    color: white;
+    gap: 25px;
+    height: 50px;
+    border-radius: 20px;
+ }
+ .main_child1_news{
+    background-color: white;
+    height: 30px;
+    color: black;
+    padding:10px;
+    width: 250px;
+}
+ .main_child2_news{
+    background-color:darkgoldenrod;
+    height: 30px;
+    color: black;
+    padding:10px;
+    border-radius: 10px;
+    width: 250px;
+ }
+ .button-catogry{
+    background-color:darkgoldenrod;
+    height: 30px;
+    color: black;
+    padding:10px;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 10px;
+ }
+.newspage_buttons{
+    display: flex;
+    justify-content:space-around;
+
+}
+ .newspage_buttons button{
+    height: 40px;
+    width: 140px;
+    background-color:darkgoldenrod;
+ }
+ /* card */
+ .news__card {
+    display: flex;
+    justify-content: space-between;
+    background-color:aqua;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+  
+  }
+  
+  .news_card .news_card--header {
+    font-weight: 600;
+  }
+  
+  .news__card--header--name {
+    align-self: flex-start;
+  }
+  
+  .news__card--header--category {
+    align-self: flex-end;
+  }
+  
+  .like--icon--container {
+    cursor: pointer;
+    padding: 20px;
+  }
+  .like--btn {
+    fill: #ffffff;
+    stroke: #000000;
+  }
+  .like--btn--active {
+    fill: darkred;
+  }
+
+ 
+ 
